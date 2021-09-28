@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+}
+/* HEADING 1 */
+.heading1{
+    border: 2px ;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    background:linear-gradient(to right,red, lightgreen, yellow);
+}
+/* FIRST BOX */
+.first-box{
+    border: 3px solid brown;
+    margin: 10px 300px 10px 300px;
+    border-radius: 10px;
+    background: lightblue;
+    font-size: larger;
+}
+.box1{
+    margin-left: 370px;
+}
+
+/* SECOND BOX */
+.second-box{
+    border: 1px solid brown;
+    border-radius: 15px;
+    background: aqua;
+    margin: 15px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+.box2{
+    border: 2px solid green;
+    height: 75px;
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 20px 0px 20px
+}
+.box2-4{
+    grid-column: 2/3;
+}
+hr{
+    margin-top: 0px;
+}
+
+/* HEADING 2 */
+.heading2{
+    border: 2px ;
+    margin: 30px 0px 20px 0px ;
+    font-size: x-large;
+    text-decoration: underline crimson;
+    text-align: center;
+    background:linear-gradient(to right, crimson, yellow, crimson);
+    padding-bottom: 20px;
+}
+
+/* THIRD BOX */
+.third-box{
+    border: 2px solid green;
+    background: radial-gradient(blue, lightgreen);
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr 2fr;
+}
+.box3{
+    border: 2px solid   red;
+    background: yellow;
+    color: brown;
+    font-size: x-large;
+    width: 250px;
+    height: 120px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+.box3-1{
+    margin: 80px 20px 80px 10px ; 
+}
+.box3-2{
+    margin: 80px 20px 80px 10px ; 
+}
+.box3-3{
+    margin: 80px 20px 80px 10px ; 
+}
+.box3-4{
+    margin: 80px 20px 80px 10px ; 
+}
+
+ /* FOURTH BOX HAVING 7 IN BOX */
+.forth-box{
+    border: 1px solid grey;
+    color: white;
+    margin: 40px 0px 60px 0px;  
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr 1fr;
+    grid-gap: 8px;
+    grid-template-rows: 50px 100px 180px 50px;
+}
+.box4-1{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: xx-large;
+    font-weight: bold;
+    background: crimson;
+    grid-column: 1/5;
+}
+.box4-2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background: green;
+}
+.box4-3{
+    background: blue;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;  
+}
+.box4-4{
+    background: darkcyan;
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+}
+.box4-5{
+    background:darkorange;
+    font-size: x-large;
+    font-weight: bold;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}  
+.box4-6{
+    background: gray;
+    font-size:x-large;
+    grid-row: 2/4;
+}
+.box4-7{
+    background: blueviolet;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    grid-column: 1/5;
+}
